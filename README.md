@@ -8,7 +8,7 @@ will examine the performance for several values of m.
  
  
  
-# {$Solution For the Problem} 
+# Solution For the Problem 
  I solved this problem in two phases:
   - Integer Programming: Selection of stocks is an integer programming problem.The objective of the problem is to keep minimum stocks that are best representative of the majority of stocks in the fund. The notion of similarity was calculated using the correlation between the daily returns for each stock.
   - Linear Programing: Once the stocks have been selected, they need to be weighted in the portfolio. The weighing was done with the objective of minimzing the total absolute deviation between the fund returns and the index fund returns.
